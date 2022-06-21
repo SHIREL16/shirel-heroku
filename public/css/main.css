@@ -1,0 +1,108 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+   }
+main{
+    background-color: #ebebeb;
+}
+
+.contenedor {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+   
+    }
+    .camion{
+        color :#39b54a;
+            display: block;
+            font-size: 16px;
+            padding: 5px;
+            width: 30px;
+            height: 30px;
+            border: 1px solid #39b54a;
+            background-color: #FFF;
+            border-radius: 50%;
+            position: relative;
+            right: -104px;
+            top: -28px;
+            transition: all 450ms;
+    }
+    .camion:hover{
+        transform:rotate(-90deg);
+        
+    }
+    
+article{
+    background-color: white;
+    width: 200px;
+    margin: 10px;
+    padding: 15px;
+    
+    }
+.precio{
+    font-size: 18px;
+}
+
+.descuento{
+   font-size: 16px;
+   color: #39b54a;
+   position:relative;
+right: -75px;
+bottom:20px;
+}
+.descripcion{
+     font-size: 16px;
+}
+.subCaja{
+ display : block;
+ border-top: 1px solid #ebebeb;
+ padding:15px;
+ background-color: white;
+
+}
+@media /*celular*/(min-width: 361px){
+.descripcion{
+    display: none;
+}
+.contenedor{
+    display: flex;
+    flex-direction: column;
+}
+article{
+width:100%;
+}
+}
+@media /*tablet*/(min-width: 769px){
+    .descripcion{
+        display: flex;
+    } 
+article{
+    width: 40%;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
+.contenedor{
+    display: flex;
+    flex-wrap:nowrap; 
+
+    
+}
+
+
+}
+@media /*compu*/ (min-width: 1090px){
+    .descripcion{
+        display: flex;
+    }
+    .contenedor{
+        display: flex;
+        flex-direction:row;
+        flex-wrap: nowrap;
+    }
+    article{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        width:40%;
+        }
+}
+

@@ -1,0 +1,13 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+b h2{
+font-size: 24px;
+}
+body{
+    font-family:'roboto', sans-serif;
+    font-family: 12px;
+}

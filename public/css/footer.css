@@ -1,0 +1,15 @@
+.icono{
+    color: #1259c3;
+    font-size: 2em;
+    transition: color 450ms;
+}
+.icono:hover{
+color: green;
+}
+ /*@media /*compu*//* (min-width: 1090px) {
+    footer{
+        display: flex;
+        flex-direction: flex-start;
+    }
+}
+*/
